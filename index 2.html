@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Lucu Warna Pink</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Baloo+2:wght@700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFF0F5;
+        }
+        
+        .pink-gradient {
+            background: linear-gradient(135deg, #FF9EB7 0%, #FFD1DC 50%, #FFB6C1 100%);
+        }
+        
+        .cute-title {
+            font-family: 'Baloo 2', cursive;
+            text-shadow: 3px 3px 0 rgba(255,255,255,0.5);
+        }
+        
+        .heart {
+            animation: beat 1.5s infinite alternate;
+            transform-origin: center;
+        }
+        
+        @keyframes beat {
+            to { transform: scale(1.1); }
+        }
+        
+        .bounce {
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .sticker {
+            filter: drop-shadow(3px 5px 2px rgba(0,0,0,0.15));
+        }
+        
+        .floating {
+            animation: floating 6s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% { transform: translateY(0px) rotate(-5deg); }
+            50% { transform: translateY(-15px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(-5deg); }
+        }
+    </style>
+    <style>
+         {
+    width: 300px;
+    height: 300px;
+    mask: url(#heart-mask);
+    -webkit-mask: url(#heart-mask);
+    mask-type: alpha;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <div class="pink-gradient w-full max-w-2xl rounded-3xl overflow-hidden shadow-2xl">
+        <!-- Decorative Elements -->
+        <div class="relative overflow-hidden h-64">
+            <!-- Floating Hearts -->
+            <svg class="heart absolute top-10 left-20 w-12 h-12 text-red-400 floating" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            
+            <svg class="heart absolute top-16 right-24 w-8 h-8 text-pink-300 floating" style="animation-delay: 0.5s" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            
+            <svg class="heart absolute bottom-8 left-32 w-10 h-10 text-rose-200 floating" style="animation-delay: 1s" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            
+            <!-- Sticker Images -->
+            <img src=""class="sticker absolute top-4 right-8 w-20 bounce">
+            <img src="" class="sticker absolute bottom-4 left-8 w-24 bounce" style="animation-delay: 0.3s">
+            
+            <!-- Main Title -->
+            <h1 class="cute-title absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl md:text-6xl font-bold text-center text-pink-700">
+                HAPPY<br>BIRTHDAY 
+            </h1>
+        </div>
+        
+        <!-- Content -->
+        <div class="bg-white bg-opacity-80 p-8 rounded-t-3xl">
+            <div class="flex items-center mb-6">
+                <div class="flex-1 border-t-2 border-pink-300 border-dashed"></div>
+                <svg class="w-10 h-10 mx-4 text-pink-500" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8zm4-11a1 1 0 0 0-1-1H9a1 1 0 0 0 0 2h2v4a1 1 0 0 0 2 0v-4h1a1 1 0 0 0 1-1z"/>
+                </svg>
+                <div class="flex-1 border-t-2 border-pink-300 border-dashed"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-pink-100 p-4 rounded-2xl border-2 border-pink-200 border-dotted">
+                    <h3 class="text-xl font-bold text-pink-700 mb-2 flex items-center">
+                        <svg class="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                        pesan untuk pacarku
+                    </h3>
+                    <p class="text-pink-600"><small>selamat ulang tahun sayangku cintaku duniaku semestakuu rumahhkuuuuu cntikuuuu semoga panjang umur sehat selalu dan selalu sayang aku yaaa semoga rezeki nya lancar selalu nurut sama mamah dan menjadii orang yang sukses</small>
+                    </p>
+                </div>
+                
+                <div class="bg-pink-100 p-4 rounded-2xl border-2 border-pink-200 border-dotted">
+                    <h3 class="text-xl font-bold text-pink-700 mb-2 flex items-center">
+                        <svg class="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                         minta maap
+                    </h3>
+                    <p class="text-pink-600"><small>maap yaaaa akuu selaluu sibukk dann bikin kamuu nungguin lamaaa sabar yaaa gaa lamaa lagii kooo nanti kalo udaa beres semuaa akuuu full samaaa kamuuu sayangg maap jugaa gabisa rayain ultah kamu bukannya aku gamau tapi urusan lain yang bikin gabisa sayangg kamu pasti paham koo</small>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <div class="inline-block px-6 py-3 bg-pink-500 text-white rounded-full font-bold shadow-lg transform hover:scale-105 transition duration-300">
+                    
+                    <!-- Tombol -->
+<button id="nextPageBtn" class="login-btn">LANJUTKAN</button>
+
+<!-- Script -->
+<script>
+  document.getElementById("nextPageBtn").addEventListener("click", function() {
+    window.location.href = "index 3.html"; // Ganti dengan nama halaman tujuan
+  });
+</script>
+                </div>
+                <p class="text-sm text-pink-600 mt-4">lanjut yuu </p>
+                
+                <div class="mt-6 flex justify-center space-x-4">
+                         </div>
+                <p class="text-xs text-pink-500 mt-2">@ILOVYUMOREEE</p>
+            </div>
+        </div>
+        
+        <!-- Footer Decoration -->
+        <div class="bg-pink-400 h-4 rounded-b-xl relative overflow-hidden">
+            <div class="absolute -top-4 left-0 right-0 flex justify-between px-8">
+                <svg class="w-8 h-8 text-pink-200" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8zm-5-7h2a3 3 0 0 1 3 3v1h2v-1a5 5 0 0 0-5-5H7z"/>
+                </svg>
+                <svg class="w-8 h-8 text-pink-200" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8zm-5-7h2a3 3 0 0 1 3 3v1h2v-1a5 5 0 0 0-5-5H7z"/>
+                </svg>
+                <svg class="w-8 h-8 text-pink-200" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8a8 8 0 0 1-8 8zm-5-7h2a3 3 0 0 1 3 3v1h2v-1a5 5 0 0 0-5-5H7z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .love-burst {
+            position: fixed;
+            pointer-events: none;
+            animation: float-up 4s ease-out forwards;
+        }
+        
+        @keyframes float-up {
+            0% {
+                transform: translateY(0) scale(0);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) scale(1);
+                opacity: 0;
+            }
+        }
+    </style>
+    
+    <script>
+        function createLoveBurst(x, y) {
+            const colors = ['#ff3366', '#ff66a3', '#ff99c2', '#ffccdd', '#ffb6c1'];
+            const burstSize = 30;
+            
+            for (let i = 0; i < 50; i++) {
+                const love = document.createElement('div');
+                love.className = 'love-burst';
+                love.innerHTML = '❤️';
+                
+                // Random properties
+                const size = Math.random() * 30 + 20;
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                const angle = Math.random() * 360;
+                const distance = Math.random() * 100 + 50;
+                
+                // Position and style the heart
+                love.style.left = `${x}px`;
+                love.style.top = `${y}px`;
+                love.style.fontSize = `${size}px`;
+                love.style.color = color;
+                
+                // Random animation properties
+                love.style.animationDuration = `${Math.random() * 3 + 2}s`;
+                love.style.transform = `translate(${Math.random() * distance - distance/2}px, 0) rotate(${angle}deg)`;
+                
+                document.body.appendChild(love);
+                
+                // Remove element after animation
+                setTimeout(() => {
+                    love.remove();
+                }, 4000);
+            }
+        }
+
+        const button = document.querySelector('div.inline-block');
+        button.addEventListener('click', (e) => {
+            const x = e.clientX;
+            const y = e.clientY + window.scrollY;
+            createLoveBurst(x, y);
+        });
+        
+        button.addEventListener('mouseover', () => {
+            button.style.transform = 'scale(1.05)';
+        });
+        
+        button.addEventListener('mouseout', () => {
+            button.style.transform = 'scale(1)';
+        });
+    </script>
+</body>
+</html>
